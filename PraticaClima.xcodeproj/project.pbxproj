@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852EC46C20193DB50092D6C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC46B20193DB50092D6C8 /* AppDelegate.swift */; };
+		852EC46E20193DB50092D6C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC46D20193DB50092D6C8 /* ViewController.swift */; };
+		852EC47120193DB50092D6C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852EC46F20193DB50092D6C8 /* Main.storyboard */; };
+		852EC47320193DB50092D6C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852EC47220193DB50092D6C8 /* Assets.xcassets */; };
+		852EC47620193DB50092D6C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852EC47420193DB50092D6C8 /* LaunchScreen.storyboard */; };
+		852EC48120193DB50092D6C8 /* PraticaClimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC48020193DB50092D6C8 /* PraticaClimaTests.swift */; };
+		852EC48C20193DB50092D6C8 /* PraticaClimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC48B20193DB50092D6C8 /* PraticaClimaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		852EC47D20193DB50092D6C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852EC46020193DB50092D6C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852EC46720193DB50092D6C8;
+			remoteInfo = PraticaClima;
+		};
+		852EC48820193DB50092D6C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852EC46020193DB50092D6C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852EC46720193DB50092D6C8;
+			remoteInfo = PraticaClima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852EC46820193DB50092D6C8 /* PraticaClima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraticaClima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		852EC46B20193DB50092D6C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		852EC46D20193DB50092D6C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		852EC47020193DB50092D6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		852EC47220193DB50092D6C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		852EC47520193DB50092D6C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		852EC47720193DB50092D6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852EC47C20193DB50092D6C8 /* PraticaClimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraticaClimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		852EC48020193DB50092D6C8 /* PraticaClimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraticaClimaTests.swift; sourceTree = "<group>"; };
+		852EC48220193DB50092D6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852EC48720193DB50092D6C8 /* PraticaClimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraticaClimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		852EC48B20193DB50092D6C8 /* PraticaClimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraticaClimaUITests.swift; sourceTree = "<group>"; };
+		852EC48D20193DB60092D6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852EC46520193DB50092D6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC47920193DB50092D6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC48420193DB50092D6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852EC45F20193DB50092D6C8 = {
+			isa = PBXGroup;
+			children = (
+				852EC46A20193DB50092D6C8 /* PraticaClima */,
+				852EC47F20193DB50092D6C8 /* PraticaClimaTests */,
+				852EC48A20193DB50092D6C8 /* PraticaClimaUITests */,
+				852EC46920193DB50092D6C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852EC46920193DB50092D6C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852EC46820193DB50092D6C8 /* PraticaClima.app */,
+				852EC47C20193DB50092D6C8 /* PraticaClimaTests.xctest */,
+				852EC48720193DB50092D6C8 /* PraticaClimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852EC46A20193DB50092D6C8 /* PraticaClima */ = {
+			isa = PBXGroup;
+			children = (
+				852EC46B20193DB50092D6C8 /* AppDelegate.swift */,
+				852EC46D20193DB50092D6C8 /* ViewController.swift */,
+				852EC46F20193DB50092D6C8 /* Main.storyboard */,
+				852EC47220193DB50092D6C8 /* Assets.xcassets */,
+				852EC47420193DB50092D6C8 /* LaunchScreen.storyboard */,
+				852EC47720193DB50092D6C8 /* Info.plist */,
+			);
+			path = PraticaClima;
+			sourceTree = "<group>";
+		};
+		852EC47F20193DB50092D6C8 /* PraticaClimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				852EC48020193DB50092D6C8 /* PraticaClimaTests.swift */,
+				852EC48220193DB50092D6C8 /* Info.plist */,
+			);
+			path = PraticaClimaTests;
+			sourceTree = "<group>";
+		};
+		852EC48A20193DB50092D6C8 /* PraticaClimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				852EC48B20193DB50092D6C8 /* PraticaClimaUITests.swift */,
+				852EC48D20193DB60092D6C8 /* Info.plist */,
+			);
+			path = PraticaClimaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852EC46720193DB50092D6C8 /* PraticaClima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852EC49020193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClima" */;
+			buildPhases = (
+				852EC46420193DB50092D6C8 /* Sources */,
+				852EC46520193DB50092D6C8 /* Frameworks */,
+				852EC46620193DB50092D6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PraticaClima;
+			productName = PraticaClima;
+			productReference = 852EC46820193DB50092D6C8 /* PraticaClima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		852EC47B20193DB50092D6C8 /* PraticaClimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852EC49320193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClimaTests" */;
+			buildPhases = (
+				852EC47820193DB50092D6C8 /* Sources */,
+				852EC47920193DB50092D6C8 /* Frameworks */,
+				852EC47A20193DB50092D6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852EC47E20193DB50092D6C8 /* PBXTargetDependency */,
+			);
+			name = PraticaClimaTests;
+			productName = PraticaClimaTests;
+			productReference = 852EC47C20193DB50092D6C8 /* PraticaClimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		852EC48620193DB50092D6C8 /* PraticaClimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852EC49620193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClimaUITests" */;
+			buildPhases = (
+				852EC48320193DB50092D6C8 /* Sources */,
+				852EC48420193DB50092D6C8 /* Frameworks */,
+				852EC48520193DB50092D6C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852EC48920193DB50092D6C8 /* PBXTargetDependency */,
+			);
+			name = PraticaClimaUITests;
+			productName = PraticaClimaUITests;
+			productReference = 852EC48720193DB50092D6C8 /* PraticaClimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852EC46020193DB50092D6C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maestro;
+				TargetAttributes = {
+					852EC46720193DB50092D6C8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					852EC47B20193DB50092D6C8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 852EC46720193DB50092D6C8;
+					};
+					852EC48620193DB50092D6C8 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 852EC46720193DB50092D6C8;
+					};
+				};
+			};
+			buildConfigurationList = 852EC46320193DB50092D6C8 /* Build configuration list for PBXProject "PraticaClima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 852EC45F20193DB50092D6C8;
+			productRefGroup = 852EC46920193DB50092D6C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852EC46720193DB50092D6C8 /* PraticaClima */,
+				852EC47B20193DB50092D6C8 /* PraticaClimaTests */,
+				852EC48620193DB50092D6C8 /* PraticaClimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852EC46620193DB50092D6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852EC47620193DB50092D6C8 /* LaunchScreen.storyboard in Resources */,
+				852EC47320193DB50092D6C8 /* Assets.xcassets in Resources */,
+				852EC47120193DB50092D6C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC47A20193DB50092D6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC48520193DB50092D6C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852EC46420193DB50092D6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852EC46E20193DB50092D6C8 /* ViewController.swift in Sources */,
+				852EC46C20193DB50092D6C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC47820193DB50092D6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852EC48120193DB50092D6C8 /* PraticaClimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852EC48320193DB50092D6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852EC48C20193DB50092D6C8 /* PraticaClimaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852EC47E20193DB50092D6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852EC46720193DB50092D6C8 /* PraticaClima */;
+			targetProxy = 852EC47D20193DB50092D6C8 /* PBXContainerItemProxy */;
+		};
+		852EC48920193DB50092D6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852EC46720193DB50092D6C8 /* PraticaClima */;
+			targetProxy = 852EC48820193DB50092D6C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		852EC46F20193DB50092D6C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852EC47020193DB50092D6C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		852EC47420193DB50092D6C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852EC47520193DB50092D6C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		852EC48E20193DB60092D6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		852EC48F20193DB60092D6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		852EC49120193DB60092D6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PraticaClima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		852EC49220193DB60092D6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PraticaClima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		852EC49420193DB60092D6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PraticaClimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraticaClima.app/PraticaClima";
+			};
+			name = Debug;
+		};
+		852EC49520193DB60092D6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PraticaClimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PraticaClima.app/PraticaClima";
+			};
+			name = Release;
+		};
+		852EC49720193DB60092D6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PraticaClimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PraticaClima;
+			};
+			name = Debug;
+		};
+		852EC49820193DB60092D6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PraticaClimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PraticaClimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PraticaClima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852EC46320193DB50092D6C8 /* Build configuration list for PBXProject "PraticaClima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EC48E20193DB60092D6C8 /* Debug */,
+				852EC48F20193DB60092D6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852EC49020193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EC49120193DB60092D6C8 /* Debug */,
+				852EC49220193DB60092D6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		852EC49320193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EC49420193DB60092D6C8 /* Debug */,
+				852EC49520193DB60092D6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		852EC49620193DB60092D6C8 /* Build configuration list for PBXNativeTarget "PraticaClimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852EC49720193DB60092D6C8 /* Debug */,
+				852EC49820193DB60092D6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852EC46020193DB50092D6C8 /* Project object */;
+}
